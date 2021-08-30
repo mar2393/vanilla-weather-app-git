@@ -8,7 +8,7 @@ body {
 body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
-  animation: gradient 100s ease infinite;
+  animation: gradient 70s ease infinite;
 }
 
 @keyframes gradient {
@@ -39,9 +39,9 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: rgb(135, 135, 135);
+  color: rgb(78, 77, 77);
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 19px;
 }
 li:first-letter {
@@ -50,9 +50,8 @@ li:first-letter {
 .weather-app {
   max-width: 600px;
   padding: 20px;
-  border: 1px solid #dadde1;
   border-radius: 20px;
-  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  background: #fff;
 }
 .weather-app-wrapper {
   max-width: 600px;
@@ -107,4 +106,10 @@ li:first-letter {
 }
 .watermark {
   color: #dfe9f3;
+}
+.github {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
